@@ -14,14 +14,10 @@ class BankAccount:
     try:
       if amt<0:
         raise(AddNeg)
-      elif amt<1000:
-        raise(MinBal)
       else:
         pass
     except AddNeg:
       print("Can't deposit negetive amount!")
-    except MinBal:
-      print("Need to have minimum balance 1000!")
     else:
       self.num=self.num+amt
   def withdraw(self,amt=0):
