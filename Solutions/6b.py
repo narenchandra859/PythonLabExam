@@ -1,3 +1,5 @@
+# Question doesn't specify RE but can be done using RE
+
 def exclamation(s):
   s1=""
   vow = ['a','e','i','o','u','A','I','E','O','U']

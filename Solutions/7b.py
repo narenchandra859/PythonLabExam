@@ -1,3 +1,5 @@
+# Brute force all possible (nC3) possible pairs to check for target
+
 def subsetSum(l, t):
   for i in range(0,len(l)):
     for j in range(i+1,len(l)):
