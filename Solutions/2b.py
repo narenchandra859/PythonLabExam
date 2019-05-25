@@ -1,6 +1,4 @@
-def geometric():
-  print("Enter the list of integers : ",end="")
-  l=[int(x) for x in input().split()]
+def geometric(l):
   r=l[1]//l[0]
   f=True
   for i in range(1,len(l)):
@@ -9,6 +7,7 @@ def geometric():
       break
     else:
       pass
-  print(f)
-
-geometric()
+  return(f)
+print("Enter the list of integers : ",end="")
+l=[int(x) for x in input().split()]
+print(geometric(l))
